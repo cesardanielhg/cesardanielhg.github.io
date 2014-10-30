@@ -1,84 +1,104 @@
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="http://codepen.io/cesardanielhg/pen/ifmtI">
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-<style type="text/css">
-
-
-
-.word {
-  color: #f9f33f;
-}
-
-@import "compass/utilities/links/unstyled-link";
-body{
+<style class="cp-pen-styles">
+body {
   font-family: 'Raleway', sans-serif;
-  /*background:url("http://www.wallpapersin.net/wallpapers/2013/03/Tokyo-Skyscrapers-485x728.jpg");*/
-  background-color:#00adef!important;
+  /*background: url("http://www.wallpapersin.net/wallpapers/2013/03/Tokyo-Skyscrapers-485x728.jpg");*/
+  background-color: #00adef;
+}
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #00BBBB;
 }
-a{
-  @include unstyled-link();
-  color:#00BBBB;
-  &:hover{
-      color:#666;
-  }
+a:active, a:focus {
+  outline: none;
 }
-#container{
-  width:400px;
-  height:500px;
-  @include box-shadow(#999 2px 2px 10px);
-  margin:0px auto;
+a:hover {
+  color: #666;
 }
-.image{
-  height:275px;
+
+#container {
+  width: 400px;
+  height: 500px;
+  -moz-box-shadow: #999 2px 2px 10px;
+  -webkit-box-shadow: #999 2px 2px 10px;
+  box-shadow: #999 2px 2px 10px;
+  margin: 0px auto;
+}
+
+.image {
+  height: 275px;
   background: center center no-repeat;
-  background-size:cover;
-}
-.info{
-  height:175px;
-  background:#FAFAFA;
-  text-align:center;
-  h1.name{
-    text-transform:uppercase;
-    margin:0px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #5C5B5B;
-    font-size: 30px;
-    padding: 25px 0px 0px 0px;
-  }
-  h3.position{
-    margin:0px;
-  }
-  p{
-    color:#666;
-    padding:0px 60px;
-  }
-}
-.social{
-  height:40px;
-  background:#DAE0DE;
-  text-align:center;
-  padding-top:20px;
-  i{
-    font-size:20px;
-  }
-  a{
-    margin:0px 10px;
-    color:#666;
-    &:hover{
-      color:#00BBBB;
-    }
-  }
+  background-size: cover;
 }
 
+.info {
+  height: 175px;
+  background: #FAFAFA;
+  text-align: center;
+}
+.info h1.name {
+  text-transform: uppercase;
+  margin: 0px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #5C5B5B;
+  font-size: 30px;
+  padding: 25px 0px 0px 0px;
+}
+.info h3.position {
+  margin: 0px;
+}
+.info p {
+  color: #666;
+  padding: 0px 60px;
+}
+
+.social {
+  height: 40px;
+  background: #DAE0DE;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.social i {
+  font-size: 20px;
+}
+.social a {
+  margin: 0px 10px;
+  color: #666;
+}
+.social a:hover {
+  color: #00BBBB;
+}
+.line {
+  background-color:#f9f33f;
+  height:4px;
+  width:100%;
+}
 </style>
-
+<style type="text/css">
+</style>
+</head>
+<body>
 <div id="container">
-  <div class="image" style="background-image: url(http://25.media.tumblr.com/f9cd81645ebd2f0904227b42784bbfae/tumblr_mj6r7nBfdV1s7aky5o2_r1_1280.jpg)"></div>
+  <div class="image" style="background-image: url(https://m1.behance.net/rendition/modules/138171965/disp/841b355eb53742af00c6444cd5e1b689.jpg)">
+  </div>
   <div class="info">
     <h1 class="name">Cesar Hernández</h1>
-    <h3 class="position"><a href="#">Web Developer</a></h3>
-    <p>Large bet on myself in round one pansy i more, but you go</p>
+    <h3 class="position"><a href="#">Web Developer/Graphic Designer</a></h3>
+    <p>Web Environment since 2006</p>
   </div>
+  <div class="Line"></div>
   <div class="social">
     <a href=""><i class="icon-twitter"></i></a>
 
@@ -91,3 +111,8 @@ a{
     <a href=""><i class="icon-github-alt"></i></a>
   </div>
 </div>
+
+<script src="http://codepen.io/assets/editor/live/css_live_reload_init.js">
+</script>
+</body>
+</html>
